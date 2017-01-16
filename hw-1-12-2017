@@ -19,12 +19,37 @@ B) Realtive Path Resolution
 
 
 
-
 C) ls Reading Comprehension
 1.No pwd is a function and not the name of a directory.
 2.Yes, ls will list files in the current directory, -r reverse the listing and -F puts a slash after directory names.
 3.Yes, ls -r -F does the same thing as above, /Users/backup uses the aboslute path which is equivalent to current directory. 
 4.Correct answer, both #2 and #3 are correct, but #1 is wrong.
+
+
+
+D) Exploring more ls Arguments
+1. -l argument gives the long listing format. It provides not only the file and directory names but also additional information like files size and last modification time. -h argument stands for "human readable", makes the information more compact and user-friendly. For instance, it displays the files sizes in k instead of bytes (6421-> 6.4k).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
