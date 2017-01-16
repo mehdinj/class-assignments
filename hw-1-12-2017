@@ -10,3 +10,38 @@ A) Absolute vs Relative paths
 9.Yes, it will go up one level from current /Users/amanda/data/ so it will end up in /Users/amanda or home directory.
 
 
+
+B) Realtive Path Resolution
+1.No, because directory backup in /Users exists.
+2.No, these are the contents of Users/think/backup, but ls ../backup asks for the contents of te backup directory.
+3.No, again these are the content of Users/think/backup and not ../backup. Also, flag -F was not used. Hence, all / at the end of directory names are wrong.
+4.Yes, these are the contents of the ../backup which refers to /Users/backup.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
