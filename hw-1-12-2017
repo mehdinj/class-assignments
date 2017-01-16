@@ -1,0 +1,12 @@
+A) Absolute vs Relative paths
+1.No, . is the current directory.
+2.No, / is the root directory.
+3.No, home directory in this case is /Users/amanda and not /home/amanda
+4.No, ../.. will go up two levels and it will be in /Users
+5.Yes, ~ goes to home directory which is /Users/amanda in this case.
+6.No, this will go to directory called "home" in the current directory which doesn't likely exist.
+7.Yes, ~/data goes to data directory in home directory and .. goes one level up so it will end up in the home directory again.
+8.Yes, no argument in front of cd will go up to home directory.
+9.Yes, it will go up one level from current /Users/amanda/data/ so it will end up in /Users/amanda or home directory.
+
+
