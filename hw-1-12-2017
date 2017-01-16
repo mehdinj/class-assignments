@@ -36,6 +36,35 @@ For instance, it displays the files sizes in k instead of bytes (6421-> 6.4k).
 
 
 
+E) Listing Recursively and By Time
+1.At each level, directories are listed alphabetical because we used -R. 
+Because -t is used, the files and directories in each directory are sorted by the time of last change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
