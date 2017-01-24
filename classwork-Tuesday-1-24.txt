@@ -2,3 +2,86 @@
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-tues-1-17.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thursday-1-19.txt
 
+  718  git push
+  719  touch classwork-Tuesday-1-24.txt
+  720  git add classwork-Tuesday-1-24.txt 
+  721  git commit -m "classwork Tuesday 1 24"
+  722  git push
+  723  cd ~/Desktop/eeb-177/CSB/unix/sandbox/
+  724  ls -a
+  725  wget http://tinyurl.com/cep-taxa -o cep-taxa.txt
+  726  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  727  head cep-taxa.txt 
+  728  less cep-taxa.txt 
+  729  grep -w 'Orchidacea' cep-taxa.txt 
+  730  grep Orchidacea cep-taxa.txt 
+  731  grep Orchidacea cep-taxa.txt | wc -l
+  732  grep -c  Orchidacea cep-taxa.txt
+  733  grep  falcon cep-taxa.txt
+  734  grep falcon cep-taxa.txt
+  735  grep Falcon cep-taxa.txt
+  736  grep falcon cep-taxa.txt
+  737  grep Falcon cep-taxa.txt
+  738  grep -i falcon cep-taxa.txt
+  739  grep -i macaws cep-taxa.txt
+  740  grep  macaws cep-taxa.txt
+  741  grep Macaw cep-taxa.txt
+  742  grep Macaws cep-taxa.txt
+  743  grep -i Macaws cep-taxa.txt
+  744  grep -iw Macaws cep-taxa.txt
+  745  grep -w ara cep-taxa.txt
+  746* cd -B2 -A2 Desktop/eeb-177/CSB/unix/sandbox/
+  747* 
+  748  grep -w -B2 -A2 Cebus cep-taxa.txt
+  749  grep -w -B3 -A3 Cebus cep-taxa.txt
+  750  grep -wn -B3 -A3 Cebus cep-taxa.txt
+  751  grep -wn iguana cep-taxa.txt
+  752  grep -wni iguana cep-taxa.txt
+  753  grep -wniv ara cep-taxa.txt
+  754* 
+  755  grep -wniv ara cep-taxa.txt > non-macaws.txt
+  756  ls
+  757  find d .*
+  758  find d .
+  759  find .
+  760  find d. 
+  761  find d .
+  762  find ../data/
+  763  find ../sandbox/
+  764  find ../data/
+  765  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/data/
+  766  find ../data | wc -l
+  767  find ../data -name "n30.txt"
+  768  find /home/eeb177-student/Desktop/ -name "n30.txt"
+  769  cd ../data/
+  770  ls
+  771  cd ../sandbox/
+  772  find ../data/ -iname "*about*"
+  773  find /home/eeb177-student/Desktop/eeb-177/ -iname "*classwork*"
+  774  find /home/eeb177-student/Desktop/eeb-177/ -iname "*classwork*" >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  775* find ../.. -iname "*classwork*" >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  776  find /home/eeb177-student/Desktop/ -iname "*classwork*" 
+  777  find ../../../../../Desktop/ -iname "*classwork*" >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
+  778  cd ~/Desktop/eeb-177/class-assignments/
+  779  git status
+  780  git add classwork-Tuesday-1-24.txt 
+  781  git commit -m "classwork Tuesday 1, 24"
+  782  git push
+  783  gedit ~/Desktop/eeb-177/New/New.txt 
+  784  pwd
+  785  cd ~/Desktop/eeb-177/CSB/unix/sandbox/
+  786  find ../data -maxdepth 1 -name  "*.txt*"
+  787  find ../data -maxdepth 1 -name  "*.txt*" | wc -l
+  788* find ../data -name  "*.txt*" | wc -l
+  789  ls -l
+  790  touch permissions.txt
+  791  ls -l
+  792  chmod u=rwx permissions.txt 
+  793  ls -l
+  794  history 50
+  795  history 120
+  796  history 150
+  797  history 80
+  798  history 70
+  799  history 80
+  800  history 83 >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt 
