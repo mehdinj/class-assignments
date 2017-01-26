@@ -1,0 +1,139 @@
+  819  cd class-assignments/
+  820  touch classwork-Thursday-1-26.txt
+  821  git add classwork-Thursday-1-26.txt 
+  822  git commit -m "init commit classwork 1,26"
+  823  git push
+  824  ls -l
+  825  touch permissions.txt
+  826  ls -l
+  827  chmod u=rwx permissions.txt 
+  828  ls -l
+  829  chmod u -x permissions.txt 
+  830  chmod u -x  permissions.txt 
+  831  chmod u -X  permissions.txt 
+  832  chmod u -X  permissions.txt chmod u -x permissions.txt 
+  833  chmod u -X  permissions.txt chmod  
+  834  chmod u-x  permissions.txt chmod  
+  835  chmod u-x  permissions.txt
+  836  ls -l
+  837  chmod u+x  permissions.txt
+  838  ls -l
+  839  gedit
+  840  fir.sh
+  841  dir.sh
+  842  ls /user/bin
+  843  ls/bin
+  844  ls/user/bin
+  845  ls/usr/bin
+  846  ls /usr/bin
+  847  ls /bin
+  848  $path
+  849  $Path
+  850  $PATH
+  851  cd
+  852  mkdir scripts
+  853  ls
+  854  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+  855  ls
+  856  ls ~/scripts/
+  857  cd scripts/
+  858  ls
+  859  gedit
+  860  ls
+  861  gedit dir.sh 
+  862  cd
+  863  gedit .bash_profile
+  864  ls ./scripts/
+  865  ls -a ./scripts/
+  866  touch .bash_profile
+  867  cd scripts/
+  868  touch .bash_profile
+  869  gedit .bash_profile
+  870  ls
+  871  ls -a
+  872  ls -la
+  873  chmod u+x dir.sh
+  874  ls -la
+  875  ls -l
+  876  cd ~/Desktop/
+  877  ./dir.sh
+  878  dir.sh
+  879  gedit dir.sh
+  880  cd ~/scripts/
+  881  ls -l
+  882  ls -la
+  883  gedit dir.sh 
+  884  gedit .bash_profile 
+  885  dir.sh
+  886  /.dir.sh
+  887  dir.sh
+  888  gedit dir.sh 
+  889  cd
+  890  ls -a
+  891  gedit .profile
+  892  ir.sh
+  893  dir.sh
+  894  gedit .profile 
+  895  SUDO REBOOT
+  896  sudo reboot
+  897  dir.sh
+  898  cd Desktop/
+  899  dir.sh
+  900  $PATH
+  901  ./dir.sh
+  902  dir.sh
+  903  cd ..
+  904  cd scripts/
+  905  gedit dir.sh 
+  906  ls -l
+  907  cd 
+  908  cd Desktop/
+  909  dir.sh
+  910  cd
+  911  cd scripts/
+  912  gedit dir.sh 
+  913  dir.sh
+  914  gedit dir.sh
+  915  dir.sh
+  916  gedit dir.sh
+  917  dir.sh
+  918  gedit dir.sh
+  919  dir.sh
+  920  gedit dir.sh 
+  921  cd De
+  922  cd
+  923  dir.sh
+  924  sudo reboot
+  925  dir.sh
+  926  cd scripts/
+  927  gedit dir.sh
+  928  dir.sh
+  929  gedit dir.sh
+  930  dir.sh
+  931  ls
+  932  touch in-class-script.sh
+  933  gedit in-class-script.sh 
+  934  chmod u+x in-class-script.sh 
+  935  ls -l
+  936  in_class_script.sh
+  937  cd
+  938  cd Desktop/eeb-177/lab-work/
+  939  git status
+  940  in_class_script.sh
+  941  cd 
+  942  cd scripts/
+  943  ls -l
+  944  in-class-script.sh 
+  945  git init
+  946  git add --all
+  947  git commit "init commit repo"
+  948  git commit -m "init commit repo"
+  949  git remote add origin https://github.com/mehdinj/scripts.git
+  950  git push -u origin master
+  951  cd 
+  952  cd Desktop/eeb-177/class-assignments/
+  953  ipython
+  954  history 100
+  955  history 150
+  956  history 140
+  957  history 140 >> /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thursday-1-26.txt 
