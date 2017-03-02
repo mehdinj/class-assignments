@@ -1,0 +1,14 @@
+---
+title: "classwork-Thursday-3-2"
+author: "Mehdi Nojoumi"
+date: "March 2, 2017"
+output: md_document
+---
+```{r}
+#install.packages("paleotree")
+library(ggplot2)
+canid <- read.csv("canids-ranges.csv"), header=F)
+canids_occ <- ggplot()
+
+```
+
