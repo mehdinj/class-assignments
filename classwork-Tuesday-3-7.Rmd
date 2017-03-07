@@ -1,0 +1,53 @@
+---
+title: "classwork-Tuesday-3-7"
+author: "Mehdi Nojoumi"
+date: "March 7, 2017"
+output: md_document
+---
+```{r}
+#install.packages("paleotree")
+#install.packages("paleobioDB")
+library(paleobioDB)
+library(paleotree)
+data(graptPBDB)
+head(graptOccPBDB)
+
+#get species sorted occurance
+occSpecies<-taxonSortPBDBocc(graptOccPBDB,rank = "species")
+head(occSpecies)
+
+
+
+#for Genera
+#OccGenera<-taxonSortPBDBocc(graptTaxaPBDB, rank = "genus")
+
+
+#convert occurance data to "timelist" format
+graptTimeSpecies<-occData2timeList(occList = occSpecies)
+
+#for Genera
+#graptTimeGenus<-occData2timeList(occList = occGenera)
+
+
+#plot species occurances
+plotOccData(occSpecies,groupLabel = "species")
+
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+
+#pdf(file="dtt.pdf")
+#taxicDivDisc((graptTimeSpecies))
+#taxicDivDisc((graptTimeGenera))
+#taxicDivDisc((graptTimeFamily))
+#dev.off()
+
+
+```
+
+
+
+
+
+
+
+
